@@ -7,12 +7,25 @@
 // @license         MIT
 // @released        2016-12-11
 // @updated         2016-12-11
-// @match           *://*.scribd.com/*
-// @match           *://www.scribd.com/*
+// @match           *://*.scribd.com/document/*
+// @match           *://www.scribd.com/document/*
 // @run-at          document-end
 // ==/UserScript==
 
 window.onload = function () {
-	console.log("log working!")
-	alert("working!");
+	console.log("scribd-bypasser started working;");
+	document.getElementsByClassName('icon icon-globalnav_upload')[0].style.display = 'none';
+	document.getElementsByClassName('icon_btn_text')[1].innerHTML = "Download";
+
+	var URL = "http://d1.scribdassets.com/ScribdViewer.swf?";
+	var document_id = "document_id=" + window.location.href.split('/')[4];
+
+	var start = document.getElementsByTagName('script')[16].innerHTML.search("key-");
+	var end = document.getElementsByTagName('script')[16].innerHTML.search("\",\"is_searchable");
+	var key = document.getElementsByTagName('script')[16].innerHTML.substring(start, end);
+
+	var access_key = "access_key=" + key;
+
+	URL += document_id + "&" + access_key;
+	console.log(URL);
 }
