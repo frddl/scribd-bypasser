@@ -13,7 +13,8 @@
 // ==/UserScript==
 
 window.onload = function () {
-	console.log("scribd-bypasser started working;");
+	console.log("scribd-bypasser: initializing...");
+
 	document.getElementsByClassName('icon icon-globalnav_upload')[0].style.display = 'none';
 	document.getElementsByClassName('icon_btn_text')[1].innerHTML = "Download";
 
@@ -27,5 +28,7 @@ window.onload = function () {
 	var access_key = "access_key=" + key;
 
 	URL += document_id + "&" + access_key;
-	console.log(URL);
+	console.log("URL: " + URL);
+
+	document.getElementsByTagName('a')[16].setAttribute("href", URL);
 }
