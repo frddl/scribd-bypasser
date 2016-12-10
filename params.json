@@ -1,0 +1,6 @@
+{
+  "name": "scribd-bypasser v1.0",
+  "tagline": "now you can download files from scribd for free",
+  "body": "# scribd-bypasser <br />\r\n---\r\n\r\n*At one point in our student life we all need to google homework solutions, test preparation stuff and everything else somehow related to our academic life. One of the search results is, usually, [Scribd](http://scribd.com), where to download the file you either need to upload a bunch of documents, or get a monthly subscription. This extension allows you to bypass all that procedure on the Scribd, so you can download everything for free!*\r\n\r\n---\r\n\r\n### Prerequisites\r\n* Firefox (*for some reason, \\*.swf files are rendering forever in Chrome*) \r\n* Greasemonkey\r\n\r\n### Installation\r\n* Open [this page](https://frddl.github.io/scribd-bypasser/) on Firefox\r\n* Click [install](https://frddl.github.io/scribd-bypasser/scribd-bypasser.user.js)\r\n\r\n### Usage\r\n* Open any document on [Scribd](http://scribd.com)\r\n* Click \"Download\" on the top blue panel\r\n* *Voila!*",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
