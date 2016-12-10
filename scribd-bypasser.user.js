@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Scribd: Bypasser
-// @description     At one point in our student life we all need to Google homework solutions, test preparation stuff and everything else somehow related to our academic life. One of the search results is, usually, Scribd.com, where to download the file you either need to upload bunch of documets, or get a monthly subscription. Too lazy? I'm as well. This extension allows you to bypass all that procedure on the Scribd, so you can download everything easily!
+// @description     At one point in our student life we all need to google homework solutions, test preparation stuff and anything else related to subject. One of the search results is, usually, Scribd, where to download the file you either need to upload a bunch of documents, or get a monthly subscription. This extension allows you to bypass all that procedure on the Scribd, so you can download everything for free!
 // @namespace       http://github.com/frddl/scribd-bypasser
 // @version         1.0.0
 // @author          Farid Mammadov
