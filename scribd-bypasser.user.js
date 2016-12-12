@@ -21,9 +21,8 @@ window.onload = function () {
 	var URL = "http://d1.scribdassets.com/ScribdViewer.swf?";
 	var document_id = "document_id=" + window.location.href.split('/')[4];
 
-	var start = document.getElementsByTagName('script')[16].innerHTML.search("key-");
-	var end = document.getElementsByTagName('script')[16].innerHTML.search("\",\"is_searchable");
-	var key = document.getElementsByTagName('script')[16].innerHTML.substring(start, end);
+	var src = document.documentElement.innerHTML;
+	var key = src.substring(src.search("key-"), src.search("\",\"is_searchable"));
 
 	var access_key = "access_key=" + key;
 
