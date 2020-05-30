@@ -1,3 +1,5 @@
+Dear all, scribd has changed the system, so this repository is currently outdated. I will update the script as soon as I find a workaround. Cheers!
+
 # scribd-bypasser <br />
 ---
 
